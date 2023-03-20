@@ -1,0 +1,185 @@
+#first-div{
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bar{
+    padding:10px 20px 10px 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(207, 207, 207);
+    width: 400px;
+}
+
+#Second-div{
+    color: green;
+    background-color: greenyellow;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 10px;
+    display: grid;
+    justify-content: center;
+}
+
+#Second-div button{
+    padding: 10px;
+    background-color: greenyellow;
+    border-color: green;
+    border-radius: 20px;
+    margin: auto;
+    width: 100px;
+    
+}
+
+#image img{
+    height: 120px;
+    width: 170px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+figure{
+    margin: 0;
+}
+
+
+
+#categories p{
+    font-weight: bold;
+    color: rgb(82, 82, 82);
+}
+
+#anchors{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: 10px 0 10px 0;
+}
+
+#anchors a{
+    
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+    font-weight: bolder;
+    transition: 500ms;
+    padding: 4px 20px 4px 20px;
+    border-radius: 4px;
+
+}
+
+#anchors a:hover{
+    background-color: rgb(15, 127, 0);
+    color: white;
+    
+}
+
+#third-div{
+    float: right;
+    background-color: rgb(207, 207, 207);
+    border-radius: 15px;
+    padding: 20px;
+    height: 240px;
+    overflow-y: scroll;
+}
+
+#left{
+    width: 65%;
+    float: left;
+}
+
+
+#third-div img{
+    width: 70px;
+    padding: 0 10px 10px 0;
+    border-radius: 8px;
+}
+
+
+
+#third-div div{
+    display: flex;
+    
+}
+
+#third-div figure{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#third-div h3{
+    margin-top: 0;
+}
+
+#checkout{
+    padding: 30px;
+}
+
+#checkout button{
+    padding: 20px 80px 20px 80px;
+    border-radius: 30px;
+    border-color: green;
+    background-color: greenyellow;
+    font-weight: bold;
+    font-size: medium;
+    color: green;
+    transition: 500ms;
+}
+
+#checkout button:hover{
+    color: white;
+    background-color: green;
+}
+
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    float: right;
+    margin: 20px;
+}
+
+#checkout span{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+
+
+#image{
+    width: 870px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    overflow-y: scroll;
+    background-color: rgb(207, 207, 207);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+
+.sec{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    
+}
+
+.indiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#secin{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
